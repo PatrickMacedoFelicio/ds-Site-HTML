@@ -1,0 +1,45 @@
+/*CSS ESTILO arquivo: estilo.css*/
+
+
+*{
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    background-image: linear-gradient(-100deg,#00C48C, #00C48C, #00625F);
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.conteudo-navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #111825;
+    margin: 0;
+    height: 130px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 2px 3px #02152578;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.conteudo-navegacao > a {
+    color: white;
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 1500px;
+    font-size: 50px;
+}
+.navegacao-site{
+    text-align: center;    
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: auto;
+    box-shadow: 1px 1px 10px rgb(155, 155, 155);
+    padding-bottom: 30px;
+}
