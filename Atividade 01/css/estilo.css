@@ -35,6 +35,10 @@ body
 .conteudo-inicio > h2{
     margin: 0;
 }
+.links{
+    display: flex;
+    gap: 30px;
+}
 
 .links > a{
     text-decoration: none;
@@ -56,6 +60,7 @@ body
     color: #01C38E;
     margin: auto;
     text-align: left;
+    justify-content: space-around;
 }
 
 .conteudo-bg{
