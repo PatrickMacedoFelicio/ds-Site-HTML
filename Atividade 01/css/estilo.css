@@ -49,9 +49,8 @@ body
     width: auto;
     height: auto;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     padding-top: 150px;
-    padding-bottom: 20px;
     box-shadow: 1px 2px 3px #02152578;
     justify-content: space-evenly;
     color: #00C48C;
@@ -60,17 +59,24 @@ body
 .texto-direita{
     color: #01C38E; 
     text-align: left;
+    margin: 0;
+}
+.texto-direita > h2{
+    margin: 0;
+    font-size: 30px;
+    color: #01C38E; 
 }
 .texto-esquerda{
+    margin: 0;
     color: #01C38E; 
     text-align: center;
-    margin: 0;
 }
 .texto-esquerda > h2{
     margin: 0;
-    
+    font-size: 40px;
+    color: #006360;
+    text-shadow: #111825;
 }
-
 .conteudo-bg{
     text-align: center;    
     background-color: white;
