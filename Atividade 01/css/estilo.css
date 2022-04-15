@@ -1,6 +1,5 @@
 /*CSS ESTILO arquivo: estilo.css*/
 
-
 *{
     padding: 0px;
 }
@@ -49,9 +48,8 @@ body
     width: auto;
     height: auto;
     margin: auto;
-    padding-bottom: 60px;
-    padding-top: 150px;
-    box-shadow: 1px 2px 3px #02152578;
+    padding-bottom: 150px;
+    padding-top: 50px;
     justify-content: space-evenly;
     color: #00C48C;
     align-items: center;
@@ -60,17 +58,18 @@ body
     color: #01C38E; 
     text-align: left;
     margin: 0;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
 }
 .texto-direita > h2{
     margin: 0;
-    font-size: 25px;
+    font-size: 150%;
     color: #01C38E;
-
 }
 .texto-esquerda{
     margin: 0;
     color: #01C38E; 
     text-align: center;
+    text-shadow: 1px 1px 10px rgba(97, 97, 97, 0.329);
 }
 .texto-esquerda > h2{
     margin: 0;
@@ -93,11 +92,103 @@ body
 }
 
 .botao{
+    text-decoration: none;
     background-image: linear-gradient(-160deg,#00C48C, #00625F);
-    color: rgb(255, 255, 255);
-    width: 200px;
-    height: 70px;
-    border: none;
-    box-shadow: 4px, 5px, 4px black;
+    padding: 10px 30px;
+    text-align: center;
+    box-shadow: 1px 2px 5px #2b2c2c67;
     border-radius: 20px;
+    font-size: 1.5em;
+}
+.botao > a{
+    color: white;
+    text-decoration: none;
+}
+.bg-imagem{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: #01C38E;
+    padding-bottom: 40px;
+    box-shadow: 1px 8px 10px #2b2c2c2d;
+}
+.quadrado-imagem{
+    padding: 1%;
+    width: 235px;
+    height: 210px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px #2b2c2c57;
+    text-shadow: 1px 3px 5px #00000028;
+}
+.quadrado-imagem > h2{
+    font-size: 25px;
+}
+img{
+width: 180px; 
+}
+.bg-tabelas{
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.segunda-navegacao-site{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    color: #00C48C;
+}
+.segunda-navegacao-site > h1{
+    margin-top: 100px;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+th{     
+    background-color: #00625F;
+    color:#ffffff;
+    padding: 3%;
+    font-size: 23px;
+}
+td {
+    font-size: 18px;
+    border-bottom: 1px solid #111825;
+    padding: 15px;
+    color: #000000;
+}
+.navegacao-site-sem-bg{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.texto-direita-sem-bg{
+    color: #ffffff; 
+    text-align: left;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+}
+.texto-direita-sem-bg > h2{
+    margin: 0;
+    font-size: 20px;
+}
+.texto-esquerda-sem-bg{
+    margin: 0;
+    color: #ffffff; 
+    text-align: left;
+    text-shadow: 1px 1px 10px rgba(97, 97, 97, 0.329);
+}
+.texto-esquerda-sem-bg >h1{
+    margin: 0;
+    font-size: 30px;
+    text-shadow: #111825;
 }
