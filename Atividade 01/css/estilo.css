@@ -63,8 +63,9 @@ body
 }
 .texto-direita > h2{
     margin: 0;
-    font-size: 30px;
-    color: #01C38E; 
+    font-size: 25px;
+    color: #01C38E;
+
 }
 .texto-esquerda{
     margin: 0;
@@ -73,7 +74,7 @@ body
 }
 .texto-esquerda > h2{
     margin: 0;
-    font-size: 40px;
+    font-size: 200%;
     color: #006360;
     text-shadow: #111825;
 }
